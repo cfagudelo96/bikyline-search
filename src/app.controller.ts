@@ -17,4 +17,9 @@ export class AppController {
     );
     return searchFactory.getSearchRoutesStrategy().getRoutes();
   }
+
+  @Get()
+  getTest(): string {
+    return 'Working app';
+  }
 }
