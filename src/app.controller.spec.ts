@@ -87,7 +87,7 @@ describe('AppController', () => {
       const request = mocks.createRequest({ headers: { 'bikiapp-agent': 'enterprise' } });
       appController.getRoutes(request).subscribe(result => {
         executed = true;
-        expect(result).toEqual([enterpriseRoute, cityRoute, adventureRoute]);
+        expect(result).toEqual([enterpriseRoute, adventureRoute, cityRoute]);
       });
       expect(executed).toBe(true);
     });
