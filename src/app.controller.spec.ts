@@ -91,5 +91,9 @@ describe('AppController', () => {
       });
       expect(executed).toBe(true);
     });
+
+    it('should fail', () => {
+      expect(true).toBe(false);
+    });
   });
 });
