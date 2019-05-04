@@ -19,7 +19,7 @@ export class AppController {
   }
 
   @Get()
-  getTest(): string {
+  getHome(): string {
     return 'Working app';
   }
 }

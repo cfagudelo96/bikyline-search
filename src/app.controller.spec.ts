@@ -91,9 +91,12 @@ describe('AppController', () => {
       });
       expect(executed).toBe(true);
     });
+  });
 
-    it('should fail', () => {
-      expect(true).toBe(false);
+  describe('getHome', () => {
+    it('should return the expected message', () => {
+      const expectedMessage = 'Working app';
+      expect(appController.getHome()).toBe(expectedMessage);
     });
   });
 });
