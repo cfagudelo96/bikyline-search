@@ -1,10 +1,9 @@
-import { Controller, Get, Req, Post } from '@nestjs/common';
+import { Controller, Get, Req } from '@nestjs/common';
 import { Observable } from 'rxjs';
 import { Request } from 'express';
 
 import { ConcreteFactoryResolver } from './concrete-factory-resolver';
 import { Route } from './shared/route';
-import { RoutesService } from './routes-service';
 
 @Controller()
 export class AppController {
