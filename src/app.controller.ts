@@ -19,6 +19,6 @@ export class AppController {
 
   @Get()
   getHome(): string {
-    return 'Working app';
+    return 'Workin app';
   }
 }
