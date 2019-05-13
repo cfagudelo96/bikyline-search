@@ -95,7 +95,7 @@ describe('AppController', () => {
 
   describe('getHome', () => {
     it('should return the expected message', () => {
-      const expectedMessage = 'Working app';
+      const expectedMessage = 'Aplicación funciona';
       expect(appController.getHome()).toBe(expectedMessage);
     });
   });
